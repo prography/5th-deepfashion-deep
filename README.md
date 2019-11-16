@@ -2,7 +2,7 @@
 
 
 ### 11/16 손주영 진행상항
-**Target : 옷 이미지 39종류에대해서 딥러닝신경망을 이용하여 Image Classification과 Image Segmentaion을 진행한다**
+**Target : 옷 이미지 37종류에대해서 딥러닝신경망을 이용하여 Image Classification과 Image Segmentaion을 진행한다**
 
 **Done**
 1. Custom Dataset : ImageForder사용
@@ -18,3 +18,21 @@
 1. MobilenetV2 Classification 코드 데스크탑에서 학습 (Need Desktop)
 2. MobilenetV2를 활용한 Image Segmentation 구현 문의
 3. Transfer Learning
+
+주영
+Image Classification : MobileNet 
+Image Segmentation : Renet
+
+
+건호
+Image Classification : Mobilenet + Transferlearning.
+Image Segementation : Mobilnet + DeeblabV3. 
+
+
+예지. 
+Image Classification : Resnet + Transfer learning. 
+Image Segmentation : "?"
+
+
+"수요일, 11/20 " 
+Image Classification : 
