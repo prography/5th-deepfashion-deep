@@ -31,6 +31,7 @@
     - DataSet검토하기
      - DeepFashion2: https://drive.google.com/drive/folders/125F48fsMBz2EF0Cpqk6aaHet5VH399Ok 
      - c_datasets_V2.0만든 후 Review 
+     - DeepFashionAttribute파일 검토 : http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html
     - One-Hot벡터 구현(Multi-Labeling을 위한) 
     - TransferLearning부분 
 
