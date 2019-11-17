@@ -1,5 +1,5 @@
 # Deep fashion deep learning
-# Schedule 
+## Schedule 
 ## 11/17 : Image Classification구현 Pair Programming
 **목표 : Image Classification - MobileNetV2, Transfer Learning을 활용한 Multi-Labeling**</br></br>
 **참석자: 홍예지, 손주영 (서울대 입구역, 14시 - 17시)**</br></br>
@@ -31,7 +31,7 @@
   - One-Hot벡터 구현(Multi-Labeling을 위한) </br>
   - TransferLearning부분 재 검토. </br> 
 
-### 11/16 : Prototype용 Model 구축
+## 11/16 : Prototype용 Model 구축
 
 1. 기술 스택 : Pytorch 1.3.1, MobileNetV2 + Transfer Learning, DeepLabV3 </br>
 2. Model 구현 </br>
