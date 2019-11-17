@@ -1,5 +1,4 @@
 # Deep fashion deep learning
-## Schedule 
 ---------------------------------------------------------------------------------------------------------------
 ## 11/17 : Image Classification구현 Pair Programming
 #### 목표 : Image Classification - MobileNetV2, Transfer Learning을 활용한 Multi-Labeling</br></br>
@@ -35,32 +34,33 @@
     - One-Hot벡터 구현(Multi-Labeling을 위한) 
     - TransferLearning부분 
 
----------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
 
 ## 11/16 : Prototype용 Model 구축
 
-1. 기술 스택 : Pytorch 1.3.1, MobileNetV2 + Transfer Learning, DeepLabV3 </br>
-2. Model 구현 </br>
-  1) Image Classification : MobileNetV2, Transfer Learning을 활용한 Multi-Labeling </br>
-  2) Image Segmentation : Segmentation 구현. </br>  
-3. 결과.</br>
-  1) 주영: </br>
-    - Image Classification: MobileNetV2구현, Single Labeling 구현. </br>
-      - 뒷단에 TrnasferLearning 구현 실패 : 이유. 아직 이해 불가. </br>
-      - Multi Labeling구현 실패 : 이유. idea 없없음. </br>
-    - Image Segmentation : ResNet을 활용하여 Instance Segmentation 구현 (MobileNetV2 논문에는 SimenticSegmentation부분만 있어서 구현하지 않음)</br>
-   2) 건호:</br>
-    - Image Classification: MobileNetV2구현 + Transferlearning 구현 성공.  </br>
-      - 뒷단에 TrnasferLearning 구현 여부 확인 필요 : 이유. 구현은 했다고 하나 accuracy가 증가하지 않았다고 함. </br> 
-      - Multi Labeling구현 실패 : 이유. idea없었음. </br>
-    - Image Segmentation : MobileNetV2 + DeebLabV3를 활용하여 Simentic Segmentation 구현</br>
-      - Fixel깨지는 현상 발생. 정확도 많이 떨어짐. </br>
-      - 해결방안: DataSet의 문제.. (이건 사실 노가다 해야함..)</br>
-    3) 예지:</br>
-     - Image Classification: ResNet + TransferLearning구현 성공</br>
-      - Multi Labeling구현 성공. </br>
-      - MobileNet구현 실패 : MobileNet 이해도 </br>
-     - Image Segmentation : 구현 실패</br>
-4. Action Item </br>
+#### 1. 기술 스택 : Pytorch 1.3.1, MobileNetV2 + Transfer Learning, DeepLabV3 </br>
+#### 2. Model 구현 </br>
+    - Image Classification : MobileNetV2, Transfer Learning을 활용한 Multi-Labeling
+    - Image Segmentation : Segmentation 구현. 
+#### 3. 결과.</br>
+    - 주영: 
+        - Image Classification: MobileNetV2구현, Single Labeling 구현. 
+            - 뒷단에 TrnasferLearning 구현 실패 : 이유. 아직 이해 불가. 
+            - Multi Labeling구현 실패 : 이유. idea 없없음. 
+        - Image Segmentation : ResNet을 활용하여 Instance Segmentation 구현 (MobileNetV2 논문에는 SimenticSegmentation부분만 있어서 구현하지 않음)
+    - 건호:
+        - Image Classification: MobileNetV2구현 + Transferlearning 구현 성공.  
+            - 뒷단에 TrnasferLearning 구현 여부 확인 필요 : 이유. 구현은 했다고 하나 accuracy가 증가하지 않았다고 함.
+            - Multi Labeling구현 실패 : 이유. idea없었음. 
+        - Image Segmentation : MobileNetV2 + DeebLabV3를 활용하여 Simentic Segmentation 구현
+        - Fixel깨지는 현상 발생. 정확도 많이 떨어짐. 
+        - 해결방안: DataSet의 문제.. (이건 사실 노가다 해야함..)
+    - 예지:
+        - Image Classification: ResNet + TransferLearning구현 성공
+            - Multi Labeling구현 성공. 
+            - MobileNet구현 실패 : MobileNet 이해도 
+        - Image Segmentation : 구현 실패
+#### 4. Action Item 
    1) 예지, 주영 : Image Classification구축 (~11/20)
    2) 건호 : Image Segmentation 구축(~11/20)
