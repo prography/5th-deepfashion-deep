@@ -5,7 +5,7 @@
 #### 참석자: 홍예지, 손주영 (서울대 입구역, 14시 - 17시)</br></br>
 #### 진행사항(요약) 
     - MultiLabeling을 위해 출력 라벨 Type을 각각의 Class를 one-hot인코딩 하여 1차원 벡터로 만든뒤 더하는 형태로 구현한다. 
-    - Image Classification 모델은 16일 Proto당시 아무도 성공한 사람은 없었지만 논의결과 그대로 MobileNetV2 + Transferlearning을 활용하여 구현하도록한다. 이유는 하기 진행사항 상세내용 참고. 
+    - Image Classification의 Backborn모델(MobileNetV2) 구현 성공
 #### 진행사항(상세내용) </br>
 ##### 1. MultiLabeling에 대한 출력 라벨Type idea회의 </br>
  1) 결론: One-Hot벡터 형태, 각 클래스의 항목들의 라벨링을 각각 더해서 더하는 형태 </br>
